@@ -1,0 +1,42 @@
+# dependencies
+/node_modules
+
+# next.js
+/.next/
+/out/
+
+# production
+/build
+
+# local data written by the enquiry API in development
+/data/
+
+# misc
+.DS_Store
+*.pem
+npm-debug.log*
+
+# env files
+.env*.local
+.env
+
+# typescript
+*.tsbuildinfo
+next-env.d.ts
+
+# Guides and notes stay private: of the Markdown files, only README.md is published
+*.md
+!/README.md
+
+# Enquiries and other records stay off GitHub: spreadsheets and CSV files are never published.
+*.xlsx
+*.xls
+*.csv
+
+# Editors
+.idea/
+.vscode/
+
+# All local environment variants stay out of source releases.
+.env*
+!.env.example
